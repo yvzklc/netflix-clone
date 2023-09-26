@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <main>
+     <div class="container">
+        <h1>NET <span>FLIX</span></h1>
+        <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+        <form action="">
+        <label for="name">Name</label>
+        <br>
+        <input class="info" type="text" placeholder="Enter your name" name="name" id="name">
+        <br>
+        <label for="Age">Age</label>
+        <br>
+        <input class="info" type="number" placeholder="Age" name="Age" id="Age">
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        <input class="info" type="email" placeholder=" Enter your email" name="Email" id="Email">
+        <br>
+       <select name="Content" id="Content">
+        <option value="Series" checked>Series</option>
+        <option value="Movie" >Movies</option>
+       </select>
+       <br>
+       <p>Movie Type</p>
+       <br>
+       <input type="checkbox" id="comedy" name="comedy" >Comedy
+       <br>
+       <br>
+       <input type="checkbox" id="Action" name="Action" >Action
+       <br>
+       <br>
+       <input type="checkbox" id="Romance" name="Romance" >Romance
+       <br>
+       <p>Gender</p>
+       <input type="radio" id="male" name="gender">Male
+       <br>
+       <br>
+       &nbsp;
+       &nbsp;
+       <input type="radio" id="female" name="gender">Female
+       <br>
+       <br>
+       &nbsp;
+       
+       <input type="radio" id="other" name="gender">Other
+       <br>
+       <br>
+       <label for="feedback">Feedback</label>
+       <br>
+       <br>
+       <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+       <br>
+       <input type="button" value="Submit">
+    </form>
+    </div>
+    </main>
+  </body>
 </html>
